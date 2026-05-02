@@ -2,5 +2,10 @@ services:
   - type: web
     name: devops-agent-app
     env: docker
-    image: peyushxcode/devops-agent-app:latest
     plan: free
+
+    image:
+      url: docker.io/peyushxcode/devops-agent-app:latest
+
+    autoDeploy: true
+    healthCheckPath: /
