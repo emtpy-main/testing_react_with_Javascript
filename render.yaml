@@ -8,4 +8,3 @@ services:
       url: docker.io/peyushxcode/devops-agent-app:latest
 
     autoDeploy: true
-    healthCheckPath: /
