@@ -4,7 +4,7 @@ services:
     env: docker
     plan: free
 
-    image:
-      url: docker.io/peyushxcode/devops-agent-app:latest
+    docker:
+      image: peyushxcode/devops-agent-app:latest
 
     autoDeploy: true
