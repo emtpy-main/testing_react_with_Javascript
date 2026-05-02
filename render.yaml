@@ -3,8 +3,5 @@ services:
     name: devops-agent-app
     env: docker
     plan: free
-
-    docker:
-      image: peyushxcode/devops-agent-app:latest
-
+    image: peyushxcode/devops-agent-app:latest
     autoDeploy: true
